@@ -46,6 +46,33 @@ do {
 } while(num <= endNumber);
     console.log(result);
 */
+/*
+// Example-5
+// Using For Loop Print "PW Skills" 3 Times
+for(let count = 1; count <= 20; count = count + 1){
+console.log("PW Skills - Manoj Mahesh");
+};
+*/
+
+/*
+// Example-6
+// Display A sequence of even number till 20
+for(let num = 2; num <= 20; num += 2) {
+console.log(num);
+}
+*/
+
+// Example-7
+// Write A Program to show the inner for loop values for each outer iteration in along with the outer for loop
+/*
+for (let outerCount = 1; outerCount <= 3; outerCount++) {
+  console.log("Outer Loop", outerCount);
+  for (let innerCount = 1; innerCount <= 2; innerCount++) {
+    console.log("----Inner Loop: ", innerCount);
+  }
+}
+*/
+
 
 
 
